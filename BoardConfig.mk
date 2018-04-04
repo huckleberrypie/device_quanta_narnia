@@ -15,8 +15,11 @@ TW_NO_EXFAT := true
 TWHAVE_SELINUX := true
 #TW_USE_TOOLBOX := true
 TW_NO_EXFAT_FUSE := true
-TW_THEME := portrait_mdpi
-#RECOVERY_SDCARD_ON_DATA := true
+TW_THEME := landscape_mdpi
+RECOVERY_SDCARD_ON_DATA := true
+TW_EXCLUDE_SUPERSU := false
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/mt_usb/gadget/lun%d/file"
 BOARD_CUSTOM_BOOTIMG_MK := device/quanta/narnia/boot.mk
+#Same flipped framebuffer as the fake Samsung I made a TWRP for
+BOARD_HAS_FLIPPED_SCREEN := true
