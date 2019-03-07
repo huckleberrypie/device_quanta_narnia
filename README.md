@@ -30,10 +30,11 @@ If done correctly, you should end up with a recovery.img in `/out/product/quanta
 Make sure to sign it using the MediaTek sign tool (https://github.com/ferhung-mtk/android_kernel_huawei_h30t00/tree/master/kernel-3.4/mediatek/build/tools/SignTool) prior to flashing. ;)
 
 ## Issues/Caveats
-* Bootloader still needs some TLC. Not sure how to hack LK to provide proper fastboot support though.
+* Bootloader still needs some TLC. Not sure how to hack LK to provide proper fastboot support though. There are LK and preloader sources floating around for the MT8127, but getting it to work properly is another question.
 
 ## Todo
-* Nothing?
+* Fix some issues with wiping data.
+* And that damn bootloader too.
 
 ## Downloads
 You may download the initial recovery releases for the vanilla SE here: https://github.com/huckleberrypie/device_quanta_narnia/releases
