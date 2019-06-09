@@ -15,11 +15,11 @@ Camera  | 2MPx rear, 2MPx front
 
 * Compilation
 
-        # repo init -u https://github.com/omnirom/android.git -b android-6.0
+        # repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-5.1
         
         # repo sync
         
-        # source ./build/envsetup.sh
+        # . build/envsetup.sh
 
         # lunch omni_narnia-eng
 
@@ -33,11 +33,10 @@ Make sure to sign it using the MediaTek sign tool (https://github.com/ferhung-mt
 * Bootloader still needs some TLC. Not sure how to hack LK to provide proper fastboot support though. There are LK and preloader sources floating around for the MT8127, but getting it to work properly is another question.
 
 ## Todo
-* Fix some issues with wiping data.
-* And that damn bootloader too.
+* See above.
 
 ## Downloads
-You may download the initial recovery releases for the vanilla SE here: https://github.com/huckleberrypie/device_quanta_narnia/releases
+You may download the signed recovery images for the Epic here: https://github.com/huckleberrypie/device_quanta_narnia/releases
 
 ## Special thanks
 Major props to neporood for the friendship and advice, Kevin Giles, diplomatic@XDA for being the ultimate MTK fanboi and schooling yours truly about the inner workings of MediaTek devices, my pals at the American Girl collectors groups (Molly, Shannon, Amy...), and to everyone else worth thanking. ;)
