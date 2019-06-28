@@ -19,6 +19,7 @@ TW_THEME := landscape_mdpi
 RECOVERY_SDCARD_ON_DATA := true
 TW_EXCLUDE_SUPERSU := false
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
+TW_DEVICE_VERSION=1
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/mt_usb/gadget/lun%d/file"
 BOARD_CUSTOM_BOOTIMG_MK := device/quanta/narnia/boot.mk
